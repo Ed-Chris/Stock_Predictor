@@ -4,16 +4,16 @@
 This project aims to develop a stock prediction application using deep learning Long-Short Term Memory (LSTM) modeling. The primary objective is to assist traders and investors in predicting stock prices and enhancing their returns by providing a user-friendly, dynamic front-end website with real-time stock price predictions.
 
 ## Table of Contents
--Introduction
--Objective
--Features
--Technologies Used
--Data Pipeline
--Machine Learning Model
--Limitations and Future Work
--How to Run the Project
--Contributors
--References
+-Introduction.
+-Objective.
+-Features.
+-Technologies Used.
+-Data Pipeline.
+-Machine Learning Model.
+-Limitations and Future Work.
+-How to Run the Project.
+-Contributors.
+-References.
 
 ## Introduction
 Financial literacy and investments in the stock market are crucial for building long-term wealth. This project focuses on creating a tool that simplifies stock trading decisions using machine learning to predict stock prices, thus helping investors and traders optimize their returns.
@@ -55,12 +55,12 @@ Predicts the next closing price based on the most recent data.
 
 ## Limitations and Future Work
 
-### Current Limitations:
+**Current Limitations:**
 Limited variables in the model.
 Predictions are day-to-day rather than minute-by-minute.
 Reduced accuracy due to a shorter data window for faster computation.
 
-### Future Improvements:
+***Future Improvements:**
 Incorporate more factors like stock sentiment and global news.
 Enhance prediction accuracy and reduce computation time.
 Explore methods for real-time second-by-second stock price updates.
