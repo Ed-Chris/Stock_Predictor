@@ -34,7 +34,7 @@ The main goal is to develop a user-friendly web application that:
 -Utilizes a deep learning LSTM model for accurate stock price forecasting.
 
 ## Features
-Real-Time Stock Data: Access real-time stock prices and predictions for various companies.
+-Real-Time Stock Data: Access real-time stock prices and predictions for various companies.
 -Interactive Charts: Display candlestick charts for different periods (1 day to 10 years) with moving averages and RSI indicators.
 -Financial Information: View additional financial data such as opening price, closing price, volume, market cap, and more.
 -Stock Price Prediction: Predict end-of-day stock prices using an LSTM model.
@@ -50,29 +50,34 @@ Real-Time Stock Data: Access real-time stock prices and predictions for various 
 
 ## Data Pipeline
 Data Collection: Use Yahoo Finance API to fetch live stock data.
+
+
 Data Transformation: Convert data into a structured format using Pandas.
+
 Model Training: Train the LSTM model using historical stock data.
+
 Prediction: Predict stock prices using the trained model.
+
 Deployment: Deploy the application using Docker and AWS services.
 
 ## Machine Learning Model
 The LSTM model is used for predicting stock prices. It:
-Collects historical closing prices for the selected stock.
-Normalizes the data and creates sequences for time series analysis.
-Identifies patterns in stock price movements.
-Predicts the next closing price based on the most recent data.
+-Collects historical closing prices for the selected stock.
+-Normalizes the data and creates sequences for time series analysis.
+-Identifies patterns in stock price movements.
+-Predicts the next closing price based on the most recent data.
 
 ## Limitations and Future Work
 
 **Current Limitations:**
-Limited variables in the model.
-Predictions are day-to-day rather than minute-by-minute.
-Reduced accuracy due to a shorter data window for faster computation.
+-Limited variables in the model.
+-Predictions are day-to-day rather than minute-by-minute.
+-Reduced accuracy due to a shorter data window for faster computation.
 
 ***Future Improvements:**
-Incorporate more factors like stock sentiment and global news.
-Enhance prediction accuracy and reduce computation time.
-Explore methods for real-time second-by-second stock price updates.
+-Incorporate more factors like stock sentiment and global news.
+-Enhance prediction accuracy and reduce computation time.
+-Explore methods for real-time second-by-second stock price updates.
 
 ## How to Run the Project
 
