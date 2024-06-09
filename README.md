@@ -25,19 +25,19 @@ The main goal is to develop a user-friendly web application that:
 - Utilizes a deep learning LSTM model for accurate stock price forecasting.
  
 ## Features
-- Real-Time Stock Data: Access real-time stock prices and predictions for various companies.
-- Interactive Charts: Display candlestick charts for different periods (1 day to 10 years) with moving averages and RSI indicators.
-- Financial Information: View additional financial data such as opening price, closing price, volume, market cap, and more.
-- Stock Price Prediction: Predict end-of-day stock prices using an LSTM model.
+- **Real-Time Stock Data:** Access real-time stock prices and predictions for various companies.
+- **Interactive Charts:** Display candlestick charts for different periods (1 day to 10 years) with moving averages and RSI indicators.
+- **Financial Information:** View additional financial data such as opening price, closing price, volume, market cap, and more.
+- **Stock Price Prediction:** Predict end-of-day stock prices using an LSTM model.
 
 ## Technologies Used
-- Python: Programming language for developing the backend.
-- Streamlit: Framework for building the front-end application.
-- Docker: Containerization tool for deploying the application.
-- AWS: Cloud services (EC2, ECS, Fargate, DynamoDB) for hosting and data storage.
-- Yahoo Finance API: For fetching live stock data.
-- Pandas: Data manipulation library.
-- TensorFlow: Machine learning library for building the LSTM model.
+- **Python:** Programming language for developing the backend.
+- **Streamlit:** Framework for building the front-end application.
+- **Docker:** Containerization tool for deploying the application.
+- **AWS:** Cloud services (EC2, ECS, Fargate, DynamoDB) for hosting and data storage.
+- **Yahoo Finance API:** For fetching live stock data.
+- **Pandas:** Data manipulation library.
+- **TensorFlow:** Machine learning library for building the LSTM model.
 
 ## Data Pipeline
 - **Data Collection:** Use Yahoo Finance API to fetch live stock data.
