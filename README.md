@@ -40,11 +40,11 @@ The main goal is to develop a user-friendly web application that:
 - TensorFlow: Machine learning library for building the LSTM model.
 
 ## Data Pipeline
-Data Collection: Use Yahoo Finance API to fetch live stock data.
-Data Transformation: Convert data into a structured format using Pandas.
-Model Training: Train the LSTM model using historical stock data.
-Prediction: Predict stock prices using the trained model.
-Deployment: Deploy the application using Docker and AWS services.
+- Data Collection: Use Yahoo Finance API to fetch live stock data.
+- Data Transformation: Convert data into a structured format using Pandas.
+- Model Training: Train the LSTM model using historical stock data.
+- Prediction: Predict stock prices using the trained model.
+- Deployment: Deploy the application using Docker and AWS services.
 
 ## Machine Learning Model
 The LSTM model is used for predicting stock prices. It:
