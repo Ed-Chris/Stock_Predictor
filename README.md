@@ -5,14 +5,23 @@ This project aims to develop a stock prediction application using deep learning 
 
 ## Table of Contents
 -Introduction.
+
 -Objective.
+
 -Features.
+
 -Technologies Used.
+
 -Data Pipeline.
+
 -Machine Learning Model.
+
 -Limitations and Future Work.
+
 -How to Run the Project.
+
 -Contributors.
+
 -References.
 
 ## Introduction
